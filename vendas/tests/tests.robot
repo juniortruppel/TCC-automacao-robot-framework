@@ -10,9 +10,6 @@ Faturaramento interno e interestadual para PF e PJ, com produto com diferentes C
     Abrir navegador
     Acessa o menu faturamento
     Conectar no banco de dados
-    Faturamento interno para PF
-    Faturamento interestadual para PF
-    Faturamento interno para PJ
-    Faturamento interestadual para PJ
+    Faturamento interno e interestadual para PF e para PJ
     Desconectar do banco de dados
     Fechar navegador

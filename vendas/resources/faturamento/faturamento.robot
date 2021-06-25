@@ -2,52 +2,37 @@
 Documentation           Ações da página de faturamento testando
 
 ***Keywords***
-Faturamento interno para PF
+Faturamento interno e interestadual para PF e para PJ
     FOR     ${nomeProduto}          ${nomeCliente}      IN
+    #Faturamento interno para PF
     ...     ProdutoCST00CSOSN102    CliPFSC
     ...     ProdutoCST40CSOSN400    CliPFSC
     ...     ProdutoCST60CSOSN500    CliPFSC
 
-        Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
-        Pegar id da nota fiscal
-        Verificar CST e CSOSN no XML
-    END
-
-Faturamento interestadual para PF
-    FOR     ${nomeProduto}          ${nomeCliente}      IN
+    #Faturamento interestadual para PF
     ...     ProdutoCST00CSOSN102    CliPFSP
     ...     ProdutoCST40CSOSN400    CliPFSP
-        Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
-        Pegar id da nota fiscal
-        Verificar CST e CSOSN no XML
-    END
 
-Faturamento interno para PJ
-    FOR     ${nomeProduto}          ${nomeCliente}      IN
+    #Faturamento interno para PJ
     ...     ProdutoCST00CSOSN101    CHOPARIA E PIZZARIA
     ...     ProdutoCST10CSOSN201    CHOPARIA E PIZZARIA
     ...     ProdutoCST10CSOSN202    CHOPARIA E PIZZARIA
     ...     ProdutoCST40CSOSN400    CHOPARIA E PIZZARIA
     ...     ProdutoCST60CSOSN500    CHOPARIA E PIZZARIA
     ...     ProdutoCST90CSOSN900    CHOPARIA E PIZZARIA
-        Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
-        Pegar id da nota fiscal
-        Verificar CST e CSOSN no XML
-    END
 
-Faturamento interestadual para PJ
-    FOR     ${nomeProduto}          ${nomeCliente}      IN
+    #Faturamento interestadual para PJ
     ...     ProdutoCST00CSOSN101    elvismar jose ferreira
     ...     ProdutoCST10CSOSN201    elvismar jose ferreira
     ...     ProdutoCST10CSOSN202    elvismar jose ferreira
     ...     ProdutoCST40CSOSN400    elvismar jose ferreira
     ...     ProdutoCST90CSOSN900    elvismar jose ferreira
-        Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
+        Faturar produto "${nomeProduto}" para "${nomeCliente}"
         Pegar id da nota fiscal
         Verificar CST e CSOSN no XML
     END
 
-Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
+Faturar produto "${nomeProduto}" para "${nomeCliente}"
     Set Suite Variable                  ${nomeProduto}
     Input Text                          css=input[name=pesquisa-para-faturamento]                               ${nomeCliente}
     Wait Until Element Is Visible       xpath=//p[contains(text(), "Clientes")]/..//tbody//td/p[contains(text(), "${nomeCliente}")]                              ${timeToWait}
@@ -69,6 +54,7 @@ Faturar produto "${nomeProduto}" para PF "${nomeCliente}"
     Sleep       2
     Click Button                        xpath=//button[contains(text(), "Gerar nota fiscal")]
     Wait Until Element Is Visible       xpath=//h1[contains(text(), "Nota emitida com sucesso!")]               ${timeToWait}
+    Capture Page Screenshot
     Acessa o menu faturamento
 
 Pegar id da nota fiscal

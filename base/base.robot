@@ -2,9 +2,7 @@
 Documentation       Arquivo de base do projeto
 
 Library             SeleniumLibrary
-Library             OperatingSystem
 Library             String
-Library             XML
 Library             DatabaseLibrary
 
 Resource            helpers.robot
