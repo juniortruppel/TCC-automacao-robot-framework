@@ -9,16 +9,11 @@ Library             DatabaseLibrary
 
 Resource            helpers.robot
 Resource            rotas.robot
-
-#-----------------------------------------------------------------------------------------
-###Base
 Resource            variaveisAcesso.robot
 
 ###Banco de dados
 Resource            ../database/dbConnection/dbConnection.robot
 Resource            ../database/dbConnection/variaveisConexao.robot
-
-#-----------------------------------------------------------------------------------------
 
 ###Menu Vendas
 #Faturamento
