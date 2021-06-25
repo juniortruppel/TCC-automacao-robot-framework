@@ -1,4 +1,4 @@
-#Repositório para fins acadêmicos.
+# Repositório para fins acadêmicos.
 
 As váriaveis de conexão ao banco de dados e de acesso ao sistema NÃO serão disponiilizadas, visto que comprometeria a segurança do sistema e a infraestrutura do mesmo.
 ________________________________________
