@@ -2,7 +2,7 @@
 Documentation           Ações da página de faturamento testando
 
 ***Keywords***
-Faturamento interno e interestadual para PF e para PJ
+Faturamento
     FOR     ${nomeProduto}          ${nomeCliente}      IN
     #Faturamento interno para PF
     ...     ProdutoCST00CSOSN102    CliPFSC
