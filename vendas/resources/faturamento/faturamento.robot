@@ -6,26 +6,26 @@ Faturamento
     FOR     ${nomeProduto}          ${nomeCliente}      IN
     #Faturamento interno para PF
     ...     ProdutoCST00CSOSN102    CliPFSC
-    ...     ProdutoCST40CSOSN400    CliPFSC
-    ...     ProdutoCST60CSOSN500    CliPFSC
+    #...     ProdutoCST40CSOSN400    CliPFSC
+    #...     ProdutoCST60CSOSN500    CliPFSC
 
     #Faturamento interestadual para PF
-    ...     ProdutoCST00CSOSN102    CliPFSP
+    #...     ProdutoCST00CSOSN102    CliPFSP
     ...     ProdutoCST40CSOSN400    CliPFSP
 
     #Faturamento interno para PJ
-    ...     ProdutoCST00CSOSN101    CHOPARIA E PIZZARIA
-    ...     ProdutoCST10CSOSN201    CHOPARIA E PIZZARIA
-    ...     ProdutoCST10CSOSN202    CHOPARIA E PIZZARIA
-    ...     ProdutoCST40CSOSN400    CHOPARIA E PIZZARIA
+    #...     ProdutoCST00CSOSN101    CHOPARIA E PIZZARIA
+    #...     ProdutoCST10CSOSN201    CHOPARIA E PIZZARIA
+    #...     ProdutoCST10CSOSN202    CHOPARIA E PIZZARIA
+    #...     ProdutoCST40CSOSN400    CHOPARIA E PIZZARIA
     ...     ProdutoCST60CSOSN500    CHOPARIA E PIZZARIA
-    ...     ProdutoCST90CSOSN900    CHOPARIA E PIZZARIA
+    #...     ProdutoCST90CSOSN900    CHOPARIA E PIZZARIA
 
     #Faturamento interestadual para PJ
-    ...     ProdutoCST00CSOSN101    elvismar jose ferreira
-    ...     ProdutoCST10CSOSN201    elvismar jose ferreira
-    ...     ProdutoCST10CSOSN202    elvismar jose ferreira
-    ...     ProdutoCST40CSOSN400    elvismar jose ferreira
+    #...     ProdutoCST00CSOSN101    elvismar jose ferreira
+    #...     ProdutoCST10CSOSN201    elvismar jose ferreira
+    #...     ProdutoCST10CSOSN202    elvismar jose ferreira
+    #...     ProdutoCST40CSOSN400    elvismar jose ferreira
     ...     ProdutoCST90CSOSN900    elvismar jose ferreira
         Faturar produto "${nomeProduto}" para "${nomeCliente}"
         Pegar id da nota fiscal
