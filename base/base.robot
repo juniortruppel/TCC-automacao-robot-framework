@@ -6,11 +6,10 @@ Library             String
 Library             DatabaseLibrary
 
 Resource            helpers.robot
-Resource            rotas.robot
 Resource            variaveisAcesso.robot
 
-Resource            ../database/dbConnection/dbConnection.robot
-Resource            ../database/dbConnection/variaveisConexao.robot
+Resource            ../database/dbConnection.robot
+Resource            ../database/variaveisConexao.robot
 
 Resource            ../vendas/resources/faturamento.robot
 Resource            ../vendas/resources/conferenciasXML.robot

@@ -5,7 +5,6 @@ Resource            ../../base/base.robot
 
 ***Test Cases***
 Faturamento interno e interestadual para PF e PJ, com produto com diferentes CSTs e CSOSNs
-    [Tags]      faturar
     Abrir navegador
     Acessa o menu faturamento
     Conectar no banco de dados
