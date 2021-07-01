@@ -7,7 +7,6 @@ ________________________________________
 
 Pasta base
 - base.robot (Arquivo de base do projeto, onde são importadas as bibliotecas, e tem o caminho de todos os outros arquivos .robot, se um novo arquivo for criado, deve ser instanciado neste arquivo base.robot.)
-- rotas.robot (Responsável por acessar determinada rota/caminho de determinada página do Hiper gestão)
 - helpers.robot (Keywords de uso comum entre cenários [ex.: Abrir navegador, Fechar navegador])
 
 **Estrutura do código:**
@@ -21,8 +20,6 @@ Os arquivos faturamento.robot e conferenciasXML.robot possuem as implementaçõe
 ________________________________________
 
 **Execução dos testes:**
-
-Pré-requisitos:
 
 Python Instalado e configurado
 - https://www.python.org/downloads/
