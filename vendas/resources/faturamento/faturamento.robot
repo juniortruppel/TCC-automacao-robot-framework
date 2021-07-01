@@ -11,14 +11,14 @@ Faturamento
 
     #Faturamento interestadual para PF
     #...     ProdutoCST00CSOSN102    CliPFSP
-    ...     ProdutoCST40CSOSN400    CliPFSP
+    #...     ProdutoCST40CSOSN400    CliPFSP
 
     #Faturamento interno para PJ
     #...     ProdutoCST00CSOSN101    CHOPARIA E PIZZARIA
     #...     ProdutoCST10CSOSN201    CHOPARIA E PIZZARIA
     #...     ProdutoCST10CSOSN202    CHOPARIA E PIZZARIA
     #...     ProdutoCST40CSOSN400    CHOPARIA E PIZZARIA
-    ...     ProdutoCST60CSOSN500    CHOPARIA E PIZZARIA
+    #...     ProdutoCST60CSOSN500    CHOPARIA E PIZZARIA
     #...     ProdutoCST90CSOSN900    CHOPARIA E PIZZARIA
 
     #Faturamento interestadual para PJ
