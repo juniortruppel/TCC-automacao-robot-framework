@@ -1,6 +1,6 @@
 # Repositório para fins acadêmicos.
 
-As váriaveis de conexão ao banco de dados e de acesso ao sistema NÃO serão disponiilizadas, visto que comprometeria a segurança do sistema e a infraestrutura do mesmo.
+As váriaveis de conexão ao banco de dados e de acesso ao sistema NÃO serão disponibilizadas, visto que comprometeria a segurança do sistema e a infraestrutura do mesmo.
 ________________________________________
 
 **Estrutura do Projeto:**
