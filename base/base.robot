@@ -12,5 +12,5 @@ Resource            variaveisAcesso.robot
 Resource            ../database/dbConnection/dbConnection.robot
 Resource            ../database/dbConnection/variaveisConexao.robot
 
-Resource            ../vendas/resources/faturamento/faturamento.robot
-Resource            ../vendas/resources/faturamento/conferenciasXML.robot
+Resource            ../vendas/resources/faturamento.robot
+Resource            ../vendas/resources/conferenciasXML.robot
