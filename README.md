@@ -13,7 +13,7 @@ Pasta base
 
 Utilizado o padrão Page Object.
 
-No diretório da pasta "resource", existe a pasta "tests" que contém o arquivo tests.robot, é nele que temos o caso de deste, e ele é o arquivo que deve ser executado ao rodar os testes.
+No diretório da pasta "resource", existe a pasta "tests" que contém o arquivo tests.robot, é nele que temos o caso de teste, e ele é o arquivo que deve ser executado para rodar os testes.
 
 Os arquivos faturamento.robot e conferenciasXML.robot possuem as implementações das Keywords que foram criadas para automação.
 
